@@ -1,5 +1,4 @@
 /*
-
 Command gohex creates static file imports for Go.  Use gohex [file] for
 embedding static assets in Go like you would for C with xxd -i [file].
 
@@ -17,7 +16,7 @@ A simple example – converting echoed text to a Go static file
 
 Within a unix shell:
 
-  $ printf "Hello, hexadecimal world!" | gohex 
+  $ printf "Hello, hexadecimal world!" | gohex
   package main
 
   var gohex = []byte{
@@ -50,11 +49,10 @@ Flags:
   -v string
         name for Go variable of the byte slice (default "gohex")
 
-
 Git Repository
 
 Source code is available under an MIT License at
-https://github.com/wamuir/gohex. 
+https://github.com/wamuir/gohex.
 */
 package main
 
